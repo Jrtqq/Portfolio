@@ -67,6 +67,7 @@ ul {
     list-style-position: outside;
     margin-left: 20px;
 }
+
 ul li {
     padding: 5px;
 }
@@ -105,6 +106,7 @@ a {
     color: var(--link-color);
     text-decoration: none;
 }
+
 a:visited {
     color: var(--link-color);
 }
@@ -113,7 +115,9 @@ hr {
     margin: 20px;
     width: 60%;
     align-self: center;
-    color: var(--light-gray);
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--black), transparent);
 }
 
 
