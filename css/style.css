@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Helvetica;
+    font-family: OpenSans;
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    letter-spacing: 0px;
 }
 
 header {
@@ -54,6 +55,7 @@ strong {
 p {
     text-indent: 30px;
     font-size: 20;
+    margin: 3px;
 }
 
 ul {
@@ -83,7 +85,7 @@ ul {
     background-color: var(--white);
     color: var(--black);
     text-decoration: none;
-    font-family: Helvetica;
+    font-family: OpenSans;
     border: 2px solid var(--black);
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.1s ease;
