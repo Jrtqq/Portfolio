@@ -1,7 +1,9 @@
 :root {
     --white: #ffffff;
     --black: #000000;
+    --light-gray: #dfdfdf;
     --gray: #727272;
+    --width: 900px;
 }
 
 * {
@@ -25,11 +27,13 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     gap: 20px;
+    background-color: var(--light-gray);
 }
 
 h1 {
@@ -53,17 +57,22 @@ strong {
 }
 
 p {
-    text-indent: 30px;
+    text-indent: 40px;
     font-size: 20;
-    margin: 3px;
+    margin: 4px;
 }
 
 ul {
     list-style-position: inside;
+    margin-left: 55px;
+}
+
+details {
+        text-indent: 25px;
 }
 
 .block {
-    margin: 20px;
+    margin-top: 12px;
 }
 
 .section {
@@ -71,15 +80,21 @@ ul {
     flex-direction: column;
     align-items: left;
 
-    max-width: 900px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 5px solid var(--black);
+    max-width: var(--width);
+    margin: 20px;
+}
+
+hr {
+    margin: 20px;
+    width: 60%;
+    align-self: center;
+    color: var(--light-gray);
 }
 
 
 
 .button {
+    margin: 20px;
     display: inline-block;
     padding: 12px 18px;
     background-color: var(--white);
@@ -92,7 +107,7 @@ ul {
 }
 
 .button:hover {
-    background-color: var(--gray);
+    background-color: var(--light-gray);
 }
 
 .button:active {
