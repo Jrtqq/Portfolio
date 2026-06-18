@@ -34,3 +34,9 @@
     font-weight: 100;
     font-style: oblique;
 }
+@font-face {
+    font-family: OpenSans;
+    src: url("../assets/fonts/OpenSans-Semibold.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
